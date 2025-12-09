@@ -18,3 +18,6 @@ High Phase stability of anthropogenic structures between SAR images,
 Orientation of buildings to azimuth angle affects backscatter.
 
 Heterogeneity and texture can be used to map urban footprint.
+
+
+![Urban Footprint](Urban_Footprint_DLH.png)
