@@ -20,6 +20,7 @@ Orientation of buildings to azimuth angle affects backscatter.
 Heterogeneity and texture can be used to map urban footprint.
 
 
-![Delhi Urban Footprint](delhi_PNG_Single look.png)
+![Urban Footprint](/delhi_PNG_Singlelook.png)
+
 
 
