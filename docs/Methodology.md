@@ -1,7 +1,7 @@
 # Methodology: Urban Footprint Mapping Using Sentinel-1 SAR
 
 
-This document explains the complete processing workflow used to map Urban Footprint and Related Changes using Sentinel-1 Synthetic Aperture Radar (SAR) data.
+This document explains the complete processing for the generation of MLI (Multi-lookked Imagery)
 
 ---
 
@@ -37,5 +37,10 @@ This document explains the complete processing workflow used to map Urban Footpr
 
 8. ***GEOCODING***
    ***SAR SIMULATED TERRAIN CORRECTION***
+   - DEM: SRTM 3Sec
+   - DEM Resampling Method:Bicubic_interpolation
+   - Keeping the GCPs: 2000 with Coarse Registration Window Width and Height to be 64 * 64
+   - Tolerance for GCPs to be kept at 0.5
+   - Bilinear Interpolation for Image Resampling Method
+     
    
-10.  
