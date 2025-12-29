@@ -26,7 +26,7 @@ This document explains the complete processing for the generation of MLI (Multi-
   - Output: sigma0(σ^0) band
 
 6. ***TOPS SAR DEBURST***
-   -Polarization
+    -Polarization
 
 7. ***MULTILOOKING***
    -Source Bands: Sigma0(σ^0)_Subswath_Polarization
