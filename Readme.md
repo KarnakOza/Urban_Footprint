@@ -23,3 +23,10 @@ Heterogeneity and texture can be used to map urban footprint.
 [![Urban Footprint](/delhi_PNG_Singlelook.png)](https://github.com/KarnakOza/Urban_Footprint/blob/9149e3e6db6085ce2d515f9cc6ec9d68d6e56f32/delhi_PNG_Single%20look.png)
 
 
+
+# ***Change Detection Analysis***
+
+- In Order to detect changed Urban areas following things should be considered:
+- Spatial Scale should be large enough to detect the changed areas, i.e. spatial resolution higher than changed areas.
+  [For Sentinel-1 SLC only applicable at block level and not at single house level.
+- Temporal Scale: Time difference between two urban masks, works for several years or for different days but should be of same level either Asecending or Descending orbits. 
