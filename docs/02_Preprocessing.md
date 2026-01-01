@@ -39,4 +39,5 @@ Note: MLI is mirrored and upside down in compare with Google Earth Image
 # Geocoding
 The MLI is still in the radar geometry so we have to align the MLI in ground geometry with real map coordinates
 
+![image alt](https://github.com/KarnakOza/Urban_Footprint/blob/df2ac604334eacc515f82a6fa7e40de28a26290d/Recapitulation%20The%20Geocoding%20Workflow.png) 
 
