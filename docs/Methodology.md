@@ -4,12 +4,9 @@
 This document explains the complete processing for the generation of MLI (Multi-lookked Imagery)
 
 ---
-
-1. ***DATA ACQUISITION***
-   - Sentinel IW SLC Images
+  1.
    - For Urban FootPrint Mapping combination of 2 products are enough regardless or timeperiod, better to keep it around 10-12 days
    - Orbit Files (Precise Orbit Ephemerides)
-
 ---
 
 2. ***SNAP Processing Workflow***
