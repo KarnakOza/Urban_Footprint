@@ -2,7 +2,6 @@
 ---
 # Radiometric Calibration:
 Pixel Values that are directly related to radar backscatter, Level 1 product usually suffer from a certain radiometric bias.
-
 RC: enables comparison of SAR images acquired with different sensors, or acquired from the same sensors but at different times, in different modes, or processed by different processors.
 ---
 # TOPS DEBURST: 
