@@ -56,4 +56,6 @@ The MLI is still in the radar geometry so we have to align the MLI in ground geo
 -radar shadows, 
 -side looking distortions.
 
+![image alt](https://github.com/KarnakOza/Urban_Footprint/blob/8d493309796f057979fbf67581c8e6d05956b57c/stc.jpg)
+
 - Generate simulated SAR image using DEM, the geocoding and orbit state vectors from the original SAR image, and mathematical modeling of SAR imaging geometry. The simulated SAR image will have the same dimension and resolution as the original image.
