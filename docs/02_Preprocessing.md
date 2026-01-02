@@ -49,6 +49,11 @@ The MLI is still in the radar geometry so we have to align the MLI in ground geo
 2. Then, for each cell in the DEM image, its pixel position (row/column indices) in the simulated SAR image is computed based on the SAR model.
 3. Finally, the backscattered power sigma naught (σ0) for the pixel is computed using backscattering model.
 
--Note: SSTC can or should only be applied when done with product such as SLC or doing analysis which involves areas with -Steep Mountains, -High topographic variation, -radar shadows, -side-looking distortions.
+- Note: 
+ SSTC can or should only be applied when done with product such as SLC or doing analysis which involves areas with,
+-Steep Mountains, 
+-High topographic variation, 
+-radar shadows, 
+-side looking distortions.
 
 - Generate simulated SAR image using DEM, the geocoding and orbit state vectors from the original SAR image, and mathematical modeling of SAR imaging geometry. The simulated SAR image will have the same dimension and resolution as the original image.
