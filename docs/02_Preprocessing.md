@@ -41,3 +41,14 @@ The MLI is still in the radar geometry so we have to align the MLI in ground geo
 
 ![image alt](https://github.com/KarnakOza/Urban_Footprint/blob/df2ac604334eacc515f82a6fa7e40de28a26290d/Recapitulation%20The%20Geocoding%20Workflow.png) 
 
+
+---
+# SAR-Simulated Terrain Correction
+
+1. First a DEM image is created from the original SAR image. The DEM image has the same dimension as the original SAR image. The pixel value of the DEM image is the elevation of the corresponding pixel in the original SAR image.
+2. Then, for each cell in the DEM image, its pixel position (row/column indices) in the simulated SAR image is computed based on the SAR model.
+3. Finally, the backscattered power sigma naught (σ0) for the pixel is computed using backscattering model.
+
+-Note: SSTC can or should only be applied when done with product such as SLC or doing analysis which involves areas with -Steep Mountains, -High topographic variation, -radar shadows, -side-looking distortions.
+
+- Generate simulated SAR image using DEM, the geocoding and orbit state vectors from the original SAR image, and mathematical modeling of SAR imaging geometry. The simulated SAR image will have the same dimension and resolution as the original image.
