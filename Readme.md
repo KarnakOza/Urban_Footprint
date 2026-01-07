@@ -1,5 +1,9 @@
 # What is Urban Footprints ?
 
+
+![SAR](https://img.shields.io/badge/SAR-Sentinel--1-orange)
+![OpenScience](https://img.shields.io/badge/Open-Science-green)
+
 It is Spatial extent of urbanized areas, areas dominated by buildings, street and impervious surfaces which are man-made structures.
 Natural surfaces within cities are not to be taken into account.
 
