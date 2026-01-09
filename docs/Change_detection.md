@@ -14,3 +14,13 @@
 - directional change (urban development)
 - multidirectional  change (deforestation & regeneration)
 - event change (catastropic fires)
+
+
+## CHANGE VECTOR ANALYSIS
+**Capability to analyse change concurrently in all data layers**
+**Requires accurate rad. Calibration
+**Requires exact thresold definition
+
+-Multidimensional extension of the image differencing technique.
+-difference between radiometric values for multiple bands.
+-change differences exhibiting vectors (direction) and magnitudes (intensity).
