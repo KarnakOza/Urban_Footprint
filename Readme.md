@@ -33,4 +33,10 @@ Heterogeneity and texture can be used to map urban footprint.
 - In Order to detect changed Urban areas following things should be considered:
 - Spatial Scale should be large enough to detect the changed areas, i.e. spatial resolution higher than changed areas.
   [For Sentinel-1 SLC only applicable at block level and not at single house level.
-- Temporal Scale: Time difference between two urban masks, works for several years or for different days but should be of same level either Asecending or Descending orbits. 
+- Temporal Scale: Time difference between two urban masks, works for several years or for different days but should be of same level either Asecending or Descending orbits.
+
+
+
+
+## Methodology Note
+This project applies established SAR/InSAR processing workflows using ESA SNAP and snappy workflow adapted and modified given our requirement
